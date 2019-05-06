@@ -8,7 +8,7 @@ to any file that already has one.
 
 ## install
 
-    go get -u github.com/google/addlicense
+    go get -u github.com/bxa/addlicense
 
 ## usage
 
@@ -21,6 +21,9 @@ to any file that already has one.
 
 The pattern argument can be provided multiple times, and may also refer
 to single files.
+
+# sample
+    addlicense -l glp -y 2019 ./*
 
 ## license
 
